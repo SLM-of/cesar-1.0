@@ -12,7 +12,7 @@ pour poser un input a un user c'est: set.input/"hello"::variable facultatif::/ c
 .quand on veut definir une variable c'est toujours entre ::var:: alors que si on a une variable deja defini c'est $var$
 pour afficher un commentaire c'est //comentaire
 pour afficher ca variable c'est set/$ma_variable_defini$/
-pour faire un calcule c'est: set/(5*6)/ //exemple mais c'est aussi -*+/
+pour faire un calcule c'est: set/(5/6)/ //exemple mais c'est aussi -*+/
 pour faire un calcule avec une variable contenat un chiffre c'est: int.set/($var$*5)/ on peut aussi mettre deux var: $var1$*$var2$
 .int dis que les vars contiennet un chiffre
 on peut aussi créer une varieble: int.set/($var$*5)::var::/ ou set/($var$*5)::var::/
